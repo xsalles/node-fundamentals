@@ -9,8 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "httpie": "^1.1.2"
-  }
+  "description": ""
 }
