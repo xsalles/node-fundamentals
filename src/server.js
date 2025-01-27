@@ -19,10 +19,10 @@ const server = http.createServer((req, res) => {
       id: 1
     })
 
-    return res.end('User created')
+    return res.writeHead(201).end()
    }
 
-   return res.end('Hello World')
+   return res.writeHead(404).end('Not Found')
 })
 
 server.listen(3333)
